@@ -1,3 +1,6 @@
 [submodule "build"]
 	path = build
 	url = https://github.com/oaa-tools/bookmarklets-dist.git
+[submodule "build-test"]
+	path = build-test
+	url = https://github.com/oaa-tools/bookmarklets-build.git

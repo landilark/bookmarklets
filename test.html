@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Bookmarklets : Highlight accessibility features of web pages">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab' rel='stylesheet' type='text/css'>
+    <title>Accessibility Bookmarklets</title>
+  </head>
+
+  <body>
+
+  <!-- HEADER -->
+     <header id="header_wrap" class="outer" role="banner">
+         <div class="inner">
+           <a href="/"><h1 id="project_title"><span class="highlight">Accessibility</span> Bookmarklets</h1></a>
+           <h2 id="project_tagline">Highlight accessibility features of web pages</h2>
+         </div>
+         <nav id="main-navigation" class="outer">
+           <ul class="inner">
+             <li><a href="/">Home</a></li><li><a href="/install.html">Installation</a></li><li><a href="/documentation.html">Documentation</a></li><li><a href="/documentation.html">Tests</a></li>
+           </ul>
+         </nav>
+      </header>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer" role="main">
+      <section id="main_content" class="inner">
+        <p></p>
+
+    <div id="main-content">
+        <article class="markdown-body entry-content" itemprop="mainContentOfPage">
+          <p>As we add new bookmarklets, add new features, and work on improving existing functionality, we welcome the public to user test our changes. The table below shows what our top priorities and a description of how they should function.</p>
+          <h2>Top Priorities</h2>
+          <table summary="Testing Bookmarklets" id="testing">
+            <thead>
+              <tr>
+                <th>Bookmarklet</th>
+                <th id="featuresColHdr2">Version</th>
+                <th id="featuresColHdr3">Test Case</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="featuresRowHdr2"><div class="landmarks bookmarklet"><a class="bookmarklet landmarks" href="javascript:if(window.a11yLandmarks)window.a11yLandmarks.run();else{(function(){var%20link=document.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://oaa-tools.github.io/bookmarklets/build-test/styles.css';document.getElementsByTagName('head')[0].appendChild(link);var%20script=document.createElement('script');script.type='text/javascript';script.src='https://oaa-tools.github.io/bookmarklets/build-test/landmarks.js';document.getElementsByTagName('head')[0].appendChild(script);})();}">Landmarks Testing</a></div></td>
+                <td headers="featuresColHdr2 featuresRowHdr2">1.3
+                </td>
+                <td headers="featuresColHdr3 featuresRowHdr2">This bookmarklet should now have an info box with the version number in it.</td>
+                </td>
+              </tr>
+              <tr>
+                <td id="featuresRowHdr3"><div class="headings bookmarklet"><a class="bookmarklet headings" href="javascript:if(window.a11yHeadings)window.a11yHeadings.run();else{(function(){var%20link=document.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://oaa-tools.github.io/bookmarklets/build-test/styles.css';document.getElementsByTagName('head')[0].appendChild(link);var%20script=document.createElement('script');script.type='text/javascript';script.src='https://oaa-tools.github.io/bookmarklets/build-test/headings.js';document.getElementsByTagName('head')[0].appendChild(script);})();}">Headings Testing</a></div></td>
+                <td headers="featuresColHdr2 featuresRowHdr2">1.3
+                </td>
+                <td headers="featuresColHdr3 featuresRowHdr2">This bookmarklet should now have an info box with the version number in it.</td>
+                </td>
+
+              </tr>
+              <tr>
+                <td id="featuresRowHdr4"><div class="lists bookmarklet"><a class="bookmarklet lists" href="javascript:if(window.a11yLists)window.a11yLists.run();else{(function(){var%20link=document.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://oaa-tools.github.io/bookmarklets/build-test/styles.css';document.getElementsByTagName('head')[0].appendChild(link);var%20script=document.createElement('script');script.type='text/javascript';script.src='https://oaa-tools.github.io/bookmarklets/build-test/lists.js';document.getElementsByTagName('head')[0].appendChild(script);})();}">Lists Testing</a></div></td>
+                <td headers="featuresColHdr2 featuresRowHdr2">1.3
+                </td>
+                <td headers="featuresColHdr3 featuresRowHdr2">This bookmarklet should now have an info box with the version number in it.</td>
+                </td>
+              </tr>
+              <tr>
+                <td id="featuresRowHdr5"><div class="images bookmarklet"><a class="bookmarklet images" href="javascript:if(window.a11yImages)window.a11yImages.run();else{(function(){var%20link=document.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://oaa-tools.github.io/bookmarklets/build-test/styles.css';document.getElementsByTagName('head')[0].appendChild(link);var%20script=document.createElement('script');script.type='text/javascript';script.src='https://oaa-tools.github.io/bookmarklets/build-test/images.js';document.getElementsByTagName('head')[0].appendChild(script);})();}">Images Testing</a></div></td>
+                <td headers="featuresColHdr2 featuresRowHdr2">1.3
+                </td>
+                <td headers="featuresColHdr3 featuresRowHdr2">This bookmarklet should now have an info box with the version number in it.</td>
+                </td>
+                </tr>
+                 <tr>
+                <td id="featuresRowHdr6"><div class="forms bookmarklet"><a class="bookmarklet forms" href="javascript:if(window.a11yForms)window.a11yForms.run();else{(function(){var%20link=document.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://oaa-tools.github.io/bookmarklets/build-test/styles.css';document.getElementsByTagName('head')[0].appendChild(link);var%20script=document.createElement('script');script.type='text/javascript';script.src='https://oaa-tools.github.io/bookmarklets/build-test/forms.js';document.getElementsByTagName('head')[0].appendChild(script);})();}">Forms Testing</a></div></td>
+                <td headers="featuresColHdr2 featuresRowHdr2">1.3
+                </td>
+                <td headers="featuresColHdr3 featuresRowHdr2">This bookmarklet should now have an info box with the version number in it.</td>
+                </td>
+                </tr>
+
+            </tbody>
+         </table>
+
+        <h2>Testing</h2>
+        <p>To test these, install the testing bookmarklet of your choice in your browser's bookmarks or favorites bar. See the <a href="https://nhoyt.com/bookmarklets/examples/">Test Cases</a> for example markup. This markup includes the expected results you should see based on the source code for that test case. Activate a test bookmarklet on any test page and check that the tooltip values match the expected results.</p>
+        <h2>Report a Bug? Want to Contribute?</h2>
+        <p>This open source project welcomes all interested collaborators and contributions. If you have a bug or a feature suggestion, please <a href="https://github.com/oaa-tools/bookmarklets/issues">create an issue</a> in GitHub. If you want to contribute a code fix or new feature, feel free to <a href="https://github.com/oaa-tools/bookmarklets">fork the bookmarket repository in GitHub</a> and submit a pull request.</p> 
+        </article>
+    </div>
+   </div>
+   <!-- FOOTER  -->
+     <footer id="footer_wrap" class="outer" role="contentinfo">
+       <div class="inner">
+         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+       </div>
+     </footer>
+     <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71373370-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
